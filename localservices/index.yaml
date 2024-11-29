@@ -4,6 +4,6 @@ metadata:
   name: localservices
   description: "The basic collection for my infrastructure"
 spec:
-  type: component
+  type: url
   targets:
     - ./auth.yaml
