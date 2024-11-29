@@ -2,8 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: auth
+  title: "Auth (Keycloak)"
   description: The central authentication service
 spec:
   type: website
   lifecycle: production
-  owner: puiterwijk
+  owner: user:puiterwijk
