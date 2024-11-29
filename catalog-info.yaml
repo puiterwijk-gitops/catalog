@@ -4,6 +4,7 @@ metadata:
   name: catalog
   description: "The catalog of things that aren't in their own repository"
 spec:
-  type: url
   targets:
-    - ./localservices/index.yaml
+    - ./apis.yaml
+    - ./components.yaml
+    - ./resources.yaml

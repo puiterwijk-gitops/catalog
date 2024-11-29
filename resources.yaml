@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: catalog-resources
+  description: A collection of all resources
+spec:
+  targets:
+    - ./resources/postgres.yaml
+    - ./resources/auth.yaml
