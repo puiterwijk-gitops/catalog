@@ -1,8 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: puiterwijk-collection
-  description: "The basic collection for my infrastructure"
+  name: catalog
+  description: "The catalog of things that aren't in their own repository"
 spec:
   type: url
-  targets: []
+  targets:
+    - ./localservices/index.yaml
