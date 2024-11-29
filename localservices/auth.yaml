@@ -8,3 +8,5 @@ spec:
   type: website
   lifecycle: production
   owner: user:puiterwijk
+  providesApis:
+  - oidc
