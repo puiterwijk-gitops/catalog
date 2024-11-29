@@ -1,14 +1,12 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Resource
 metadata:
   name: auth
   title: "Auth (Keycloak)"
   description: The central authentication service
 spec:
-  type: website
+  type: identity-provider
   lifecycle: production
   owner: user:puiterwijk
   dependsOn:
     - resource:postgres
-  providesApis:
-    - oidc
