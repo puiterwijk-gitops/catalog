@@ -5,5 +5,6 @@ metadata:
   description: A collection of all resources
 spec:
   targets:
-    - ./resources/postgres.yaml
     - ./resources/auth.yaml
+    - ./resources/postgres.yaml
+    - ./resources/ocp-hub.yaml

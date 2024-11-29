@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: ocp-hub
+  title: "OpenShift Hub Cluster"
+  description: "The OpenShift Hub Cluster"
+spec:
+  type: kubernetes-cluster
+  lifecycle: production
+  owner: user:puiterwijk
+  dependsOn:
+    - resource:auth
