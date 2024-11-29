@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: postgres
+  title: PostgreSQL server
+  description: PostgreSQL database server for the Keycloak identity provider
+spec:
+  type: database
+  lifecycle: production
+  owner: user:puiterwijk

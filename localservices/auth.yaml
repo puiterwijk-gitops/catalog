@@ -8,5 +8,7 @@ spec:
   type: website
   lifecycle: production
   owner: user:puiterwijk
+  dependsOn:
+    - resource:postgres
   providesApis:
-  - oidc
+    - oidc
