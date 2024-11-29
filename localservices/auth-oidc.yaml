@@ -8,4 +8,4 @@ spec:
   owner: user:puiterwijk
   type: openapi
   definition: |
-    $text: https://docs.gravitee.io/am/2.x/oidc/swagger.yml
+    $openapi: https://docs.gravitee.io/am/2.x/oidc/swagger.yml
