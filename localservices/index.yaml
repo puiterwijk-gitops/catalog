@@ -8,3 +8,4 @@ spec:
   targets:
     - ./auth.yaml
     - ./auth-oidc.yaml
+    - ./postgres.yaml
