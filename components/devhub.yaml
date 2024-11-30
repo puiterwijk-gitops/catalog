@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: devhub
+  title: Developer Hub
+  description: PUiterwijk Developer Hub
+spec:
+  type: website
+  lifecycle: production
+  owner: user:puiterwijk
+  dependsOn:
+    - resource:ocp-hub
