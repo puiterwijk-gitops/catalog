@@ -79,7 +79,7 @@
             "quadrant": "infrastructure",
             "timeline": [
                 {
-                    "moved": 1,
+                    "moved": 0,
                     "ringId": "adopt",
                     "date": "2024-11-30T00:00:00.000Z",
                     "description": "GitHub Actions is a nice CI/CD tool."
