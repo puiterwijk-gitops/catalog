@@ -85,6 +85,7 @@
                     "description": "GitHub Actions is a nice CI/CD tool."
                 },
                 {
+                    "moved": -1,
                     "ringId": "trial",
                     "date": "2020-07-05T00:00:00.000Z"
                 }
